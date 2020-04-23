@@ -1,0 +1,11 @@
+kappa			 \kappa
+czero_psTE_150		 D_{3000}^{\rm{PS_{TE}}}
+czero_psEE_150		 D_{3000}^{\rm{PS_{EE}}}
+ADust_TE		 A_{\rm{dust}}^{TE}
+alphaDust_TE		 \alpha_{\rm{dust}}^{TE}
+ADust_EE		 A_{\rm{dust}}^{EE}
+alphaDust_EE		 \alpha_{\rm{dust}}^{EE}
+mapTcal			 T_{\rm{cal}}
+mapPcal			 P_{\rm{cal}}
+beam1			 A_{\rm{beam1}}
+beam2			 A_{\rm{beam2}}

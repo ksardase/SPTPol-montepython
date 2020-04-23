@@ -1,0 +1,38 @@
+#SPTpol 2017 500d EETE power spectrum 1000 < ell < 8000 (Henning et al 2017)
+
+sptpol_TEEE_desc_file   = data/sptpol_500d_TEEE_lmin1000/sptpol_500d_TEEE.desc_file
+sptpol_TEEE_bp_file     = data/sptpol_500d_TEEE_lmin1000/sptpol_500d_TTTEEE.bp_file
+sptpol_TEEE_cov_file    = data/sptpol_500d_TEEE_lmin1000/sptpol_500d_TEEE_cov.bin
+sptpol_TEEE_window_dir  = data/sptpol_500d_TEEE_lmin1000/bpwfs_ascii/
+
+sptpol_TEEE_params_file = data/sptpol_500d_TEEE_lmin1000/SPTpol_500d_TEEE.paramnames
+
+sptpol_TEEE_beam_file   = data/sptpol_500d_TEEE_lmin1000/sptpol_500d_TEEE_beamerrs.txt
+
+print_spectrum = F
+
+correct_aberration = T
+
+sptpol_TEonly = F
+sptpol_EEonly = F
+
+#Nuisance parameter prior information
+sptpol_tcal_prior = T
+sptpol_meanTcal = 1.0
+sptpol_sigmaTcal = 0.0034
+
+sptpol_pcal_prior = T
+sptpol_meanPcal = 1.0
+sptpol_sigmaPcal = 0.0115
+
+sptpol_kappa_prior = T
+sptpol_meankappa = 0.0
+sptpol_sigmakappa = 0.001
+
+sptpol_alphaEE_prior = T
+sptpol_meanAlphaEE = -2.42
+sptpol_sigmaAlphaEE = 0.02
+
+sptpol_alphaTE_prior = T
+sptpol_meanAlphaTE = -2.42
+sptpol_sigmaAlphaTE = 0.02

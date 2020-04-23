@@ -1,0 +1,20 @@
+sptpol_500d_lens.data_directory = 'data/sptpol_500d_lens'
+
+sptpol_500d_lens.nbins= 10
+#sptpol_500d_lens.use_min= 1
+#sptpol_500d_lens.use_max= 10
+sptpol_500d_lens.cl_lmin = 2
+sptpol_500d_lens.cl_lmax = 2000
+
+sptpol_500d_lens.cl_hat_file = 'bandpowers.dat'
+
+sptpol_500d_lens.bin_window_dir = 'windows'
+
+#PP
+sptpol_500d_lens.covmat_fiducial = 'cov.dat'
+
+#TT EE TE PP
+sptpol_500d_lens.linear_correction_fiducial_file = 'lensing_fiducial_correction.dat' 
+sptpol_500d_lens.linear_correction_bin_window_dir = 'lens_delta_windows'
+
+sptpol_500d_lens.use_nuisance = ['Aphiphi']

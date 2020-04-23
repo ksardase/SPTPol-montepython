@@ -1,0 +1,39 @@
+sptpol_500d_TEEE.data_directory = 'data/sptpol_500d_TEEE'
+
+sptpol_500d_TEEE.sptpol_EEonly = False
+sptpol_500d_TEEE.sptpol_TEonly = False
+
+sptpol_500d_TEEE.sptpol_TEEE_desc_file = 'sptpol_500d_TEEE.desc_file'
+sptpol_500d_TEEE.sptpol_TEEE_bp_file = 'sptpol_500d_TTTEEE.bp_file'
+#sptpol_500d_TEEE.sptpol_TEEE_cov_file = 'sptpol_500d_TEEE_cov.bin'
+sptpol_500d_TEEE.sptpol_TEEE_cov_file = 'sptpol_500d_TEEE.cov_file'
+sptpol_500d_TEEE.sptpol_TEEE_window_dir = 'bpwfs_ascii'
+sptpol_500d_TEEE.sptpol_TEEE_beam_file = 'sptpol_500d_TEEE_beamerrs.txt'
+
+sptpol_500d_TEEE.use_nuisance = ['czero_psTE_150','czero_psEE_150','ADust_TE','alphaDust_TE','ADust_EE','alphaDust_EE','mapTcal','mapPcal','beam1','beam2','kappa']
+
+#not necessary
+sptpol_500d_TEEE.sptpol_TEEE_params_file = 'SPTpol_500d_TEEE.paramnames'
+
+sptpol_500d_TEEE.correct_aberration = True
+
+#Nuisance parameter prior information
+sptpol_500d_TEEE.sptpol_tcal_prior = True
+sptpol_500d_TEEE.sptpol_meanTcal = 1.0
+sptpol_500d_TEEE.sptpol_sigmaTcal = 0.0034
+
+sptpol_500d_TEEE.sptpol_pcal_prior = True
+sptpol_500d_TEEE.sptpol_meanPcal = 1.0
+sptpol_500d_TEEE.sptpol_sigmaPcal = 0.0115
+
+sptpol_500d_TEEE.sptpol_kappa_prior = True
+sptpol_500d_TEEE.sptpol_meankappa = 0.0
+sptpol_500d_TEEE.sptpol_sigmakappa = 0.001
+
+sptpol_500d_TEEE.sptpol_alphaEE_prior = True
+sptpol_500d_TEEE.sptpol_meanAlphaEE = -2.42
+sptpol_500d_TEEE.sptpol_sigmaAlphaEE = 0.02
+
+sptpol_500d_TEEE.sptpol_alphaTE_prior = True
+sptpol_500d_TEEE.sptpol_meanAlphaTE = -2.42
+sptpol_500d_TEEE.sptpol_sigmaAlphaTE = 0.02
