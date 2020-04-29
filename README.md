@@ -17,4 +17,4 @@ range 100<l<2000. The lensing potential is reconstructed from a minimum-variance
 
 # Using the code
 
-You can use SPTPol-likelihoods freely, provided that in your publications you cite arXiv:2004.XXXXX. 
+You can use SPTPol-likelihoods freely, provided that in your publications you cite arXiv:2004.13046. 
