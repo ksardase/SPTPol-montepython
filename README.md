@@ -7,7 +7,9 @@ There are the complete SPTPol likelihoods for the MCMC sampler [Montepython](htt
 * [*Measurements of the Temperature and E-Mode Polarization of the CMB from 500 Square Degrees of SPTpol Data*](https://arxiv.org/abs/1707.09353)
 * [*Constraints on Cosmological Parameters from the 500 deg2 SPTpol Lensing Power Spectrum*](https://arxiv.org/abs/1910.07157)
 
-Our code was tested with [Montepython v3.2.0](https://baudren.github.io/montepython.html).
+Our likelihood was tested with [Montepython v3.2.0](https://baudren.github.io/montepython.html) and firstly analyzed in the paper
+
+* [*Combined analysis of Planck and SPTPol data favors the early dark energy models*](https://arxiv.org/abs/2004.13046)
 
 The repo includes: 
 
